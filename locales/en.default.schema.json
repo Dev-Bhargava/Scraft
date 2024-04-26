@@ -403,7 +403,7 @@
       "on_sale_accent": "On sale accent",
       "sold_out_badge_background": "Sold out badge",
       "custom_badge": "Custom badge",
-      "custom_badge_info": "[Learn more](https://prestige-theme.helpscoutdocs.com/article/437-custom-badges-with-metafields)"
+      "custom_badge_info": "[Learn more](https://scraft-theme.helpscoutdocs.com/article/437-custom-badges-with-metafields)"
     },
     "typography": {
       "name": "Typography",
@@ -460,7 +460,7 @@
       "name": "Color swatch",
       "round_color_swatches": "Round color swatches",
       "configuration": "Configuration (deprecated)",
-      "configuration_info": "Native color swatch should be used instead. [Learn more](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches). Configuration based color swatches is deprecated and will be removed in the future. If you still need to use the configuration based system, you can [learn more](https://prestige-theme.helpscoutdocs.com/article/417-configuring-color-swatches) about the exact naming convention."
+      "configuration_info": "Native color swatch should be used instead. [Learn more](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches). Configuration based color swatches is deprecated and will be removed in the future. If you still need to use the configuration based system, you can [learn more](https://scraft-theme.helpscoutdocs.com/article/417-configuring-color-swatches) about the exact naming convention."
     },
     "product_card": {
       "name": "Product card",
@@ -845,14 +845,14 @@
       },
       "show_icons": "Show icons",
       "transparent_header_category": "Transparent header",
-      "transparent_header_info": "To show a transparent header, add a compatible section (such as slideshow) as the first section. [Learn more](https://prestige-theme.helpscoutdocs.com/article/501-transparent-header)",
+      "transparent_header_info": "To show a transparent header, add a compatible section (such as slideshow) as the first section. [Learn more](https://scraft-theme.helpscoutdocs.com/article/501-transparent-header)",
       "transparent_header_logo_image": "Logo image",
       "transparent_header_logo_size_recommendation": "Use the same dimensions as main logo.",
       "blocks": {
         "mega_menu": {
           "name": "Mega menu",
           "menu_item": "Menu item",
-          "menu_item_info": "Enter menu item to apply a mega menu dropdown. [Learn more](https://prestige-theme.helpscoutdocs.com/article/412-mega-menu).",
+          "menu_item_info": "Enter menu item to apply a mega menu dropdown. [Learn more](https://scraft-theme.helpscoutdocs.com/article/412-mega-menu).",
           "images_position": "Images position",
           "image_1": "Image 1",
           "image_2": "Image 2",
@@ -1177,7 +1177,7 @@
         },
         "badges": {
           "name": "Badges",
-          "instructions": "Use metafields to add custom badges. [Learn more](https://prestige-theme.helpscoutdocs.com/article/437-custom-badges-with-metafields)"
+          "instructions": "Use metafields to add custom badges. [Learn more](https://scraft-theme.helpscoutdocs.com/article/437-custom-badges-with-metafields)"
         },
         "price": {
           "name": "Price",
@@ -1222,13 +1222,13 @@
             "none": "None"
           },
           "variant_image_options": "Show variant image for options",
-          "variant_image_options_info": "List of comma separated option names where option values show the attached variant image. [Learn more](https://prestige-theme.helpscoutdocs.com/article/476-variant-images-for-color-option)",
+          "variant_image_options_info": "List of comma separated option names where option values show the attached variant image. [Learn more](https://scraft-theme.helpscoutdocs.com/article/476-variant-images-for-color-option)",
           "size_chart_page": "Size chart page",
           "size_chart_page_info": "Feature a page for size option"
         },
         "product_variations": {
           "name": "Product variations",
-          "instructions": "Use metafields to easily setup product variations. [Learn more](https://prestige-theme.helpscoutdocs.com/article/426-product-variations-linked-products)",
+          "instructions": "Use metafields to easily setup product variations. [Learn more](https://scraft-theme.helpscoutdocs.com/article/426-product-variations-linked-products)",
           "option_name": "Option name",
           "option_name_placeholder": "Color",
           "option_value_metafield": "Option value metafield",
