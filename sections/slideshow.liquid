@@ -165,7 +165,9 @@ may have important consequence on the section itself.
     {%- if section.settings.show_next_section_button -%}
       <button data-action="navigate-next" class="slideshow__next-section-button circle-button circle-button--lg hover:animate-icon-block">
         <span class="sr-only">{{ 'general.accessibility.navigate_to_next_section' | t }}</span>
-        {%- render 'icon' with 'arrow-down' -%}
+        <div class="animi-arrow-icon">
+          {%- render 'icon' with 'arrow-down' -%}
+        </div>
       </button>
     {%- endif -%}
   </slideshow-carousel>
@@ -817,3 +819,26 @@ may have important consequence on the section itself.
   ]
 }
 {% endschema %}
+
+<style>
+  .animi-arrow-icon {
+    color: #ddd;
+    font-size: 2.5rem;
+    animation: pulse 2s ease-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+ 
+</style>
