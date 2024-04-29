@@ -1555,6 +1555,54 @@
         }
       }
     },
+    "shopable-video": {
+      "name": "Shopable video",
+      "Video-settings": "Video settings",
+      "settings": {
+        "section_type": {
+          "label": "Type",
+          "options__1": {
+            "label": "Grid"
+          },
+          "options__2": {
+            "label": "Carousel"
+          }
+        },
+        "custom_column": {
+          "label": "Columns per row"
+        },
+        "column_gap": {
+          "label": "Column gap"
+        },
+        "aspect_ratio": {
+          "label": "Aspect ratio",
+          "options__1": {
+            "label": "Custom ratio"
+          }
+        },
+        "custom_ratio": {
+          "label": "Custom ratio"
+        }
+      },
+      "blocks": {
+        "Video": {
+          "name": "Video",
+          "settings": {
+            "banner_img": {
+              "label": "Image",
+              "info": "280 x 450px recommended"
+            },
+            "video_local": {
+              "label": "Upload local video",
+              "info": "If you upload both image and local video, the local video will be used."
+            },
+            "product_item": {
+              "label": "Product"
+            }
+          }
+        }
+      }
+    },
     "text_with_icons": {
       "name": "Text with icons",
       "stack_on_mobile": "Stack on mobile",
