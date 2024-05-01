@@ -35,7 +35,9 @@
     <div class="tabs">
       <div class="tab active">
         {%- if cart.empty? -%}
-          <p class="h5 text-center">{{ 'cart.general.empty' | t }}</p>
+          <p class="h3 text-center">{{ 'cart.general.empty' | t }}</p>
+          <p class="h5 text-center" style="margin-top: 40px;">Not sure where to start?<br/> Try these collections:</p>
+          <a class="button" href="/collections/all" style="margin: 40px auto 0; display: block;">Continue Shopping</a>
         {%- else -%}
           {%- if settings.cart_show_free_shipping_bar -%}
             {%- render 'free-shipping-bar' -%}
