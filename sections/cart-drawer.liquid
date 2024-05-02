@@ -46,8 +46,8 @@
 </style>
 
 <cart-drawer id="cart-drawer" class="cart-drawer drawer {% if cart.empty? %}drawer--center-body{% endif %} color-scheme color-scheme--{{ section.settings.color_scheme.id }}" initial-focus="false" handle-editor-events>
-  <p class="h4 active" slot="header">{{ 'cart.general.title' | t }}</p>
-  <p class="h4" slot="header">Recently Viewed</p>
+  <p class="active" slot="header">{{ 'cart.general.title' | t }}</p>
+  <p slot="header">Recently Viewed</p>
     <div class="tabs">
       <div class="tab active">
         {%- if cart.empty? -%}
