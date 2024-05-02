@@ -471,6 +471,7 @@
         "video_f67BFf": {
           "type": "video",
           "settings": {
+            "video_local": "shopify:\/\/files\/videos\/Moonstore (1) (1).mp4",
             "product_item": ""
           }
         },
@@ -495,7 +496,7 @@
       "settings": {
         "heading_logo_svg": "",
         "heading": "",
-        "description": "<p><\/p>",
+        "description": "",
         "text_alignment": "text-center",
         "container": "container",
         "color_scheme": "",
