@@ -28,7 +28,8 @@
     font-size: 8px;
   }
   cart-drawer .drawer__empty-collections{
-    margin-top: 20px;
+    max-width: 200px;
+    margin: 20px auto;
   }
   cart-drawer .drawer__empty-collections li{
     list-style: none;
@@ -70,7 +71,7 @@
                         echo item.title
                       -%}
                     </span>
-                    {%- render 'icon', icon: 'arrow-right', size: 'sm', class: 'transform' -%}
+                    {%- render 'icon' with 'chevron-right', width: 12, direction_aware: true -%}
                   </a>
                 </li>
               {%- endfor -%}
@@ -348,6 +349,15 @@
       "max": 6,
       "label": "t:global.product_list.products_per_row_desktop",
       "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Empty Cart Recommendations"
+    },
+    {
+      "type": "collection_list",
+      "id": "empty_cart_collections",
+      "label": "Collection list"
     }
   ]
 }
