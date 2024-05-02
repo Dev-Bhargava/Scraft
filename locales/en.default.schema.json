@@ -344,7 +344,14 @@
       "minimize_motion_paragraph": "Users who configured their preferences to minimize non-essential motion will automatically experience reduced animations.",
       "show_page_transition": "Show page transition",
       "show_page_transition_info": "Fade in and out when the page changes.",
-      "show_button_transition": "Show button transition",
+      "select_transition": "Select button transition",
+      "select_transition_options": {
+        "transition_first": "Slide Right",
+        "transition_second": "Underline",
+        "transition_third": "Third Transition",
+        "transition_fourth": "Fourth Transition",
+        "transition_none": "None"
+      },
       "show_image_zoom_on_hover": "Show image zoom on hover",
       "show_image_zoom_on_hover_info": "Applies to different sections such as collection list, mega-menu...",
       "stagger_products_apparition": "Reveal products one by one",

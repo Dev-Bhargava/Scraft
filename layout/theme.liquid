@@ -80,8 +80,12 @@
   {% liquid
     assign features_class = ''
 
-    if settings.show_button_transition
+    if settings.section_animation_transition == 'first'
       assign features_class = features_class | append: 'features--button-transition '
+    elsif settings.section_animation_transition == 'second'
+      assign features_class = features_class | append: 'btn-underline '
+    elsif settings.section_animation_transition == 'none'
+      assign features_class = features_class | append: ''
     endif
 
     if settings.show_image_zoom_on_hover

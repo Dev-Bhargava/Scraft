@@ -40,6 +40,9 @@
     justify-content: space-between;
     font-size: 14px;
   }
+  .drawer--center-body::part(body) {
+      align-self: flex-start;
+  }
 </style>
 
 <cart-drawer id="cart-drawer" class="cart-drawer drawer {% if cart.empty? %}drawer--center-body{% endif %} color-scheme color-scheme--{{ section.settings.color_scheme.id }}" initial-focus="false" handle-editor-events>

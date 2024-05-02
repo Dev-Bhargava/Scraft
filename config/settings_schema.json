@@ -407,10 +407,32 @@
         "default": false
       },
       {
-        "type": "checkbox",
-        "id": "show_button_transition",
-        "label": "t:theme_settings.animation.show_button_transition",
-        "default": true
+        "type": "select",
+        "id": "section_animation_transition",
+        "label": "t:theme_settings.animation.select_transition",
+        "options": [
+          {
+            "value": "first",
+            "label": "t:theme_settings.animation.select_transition_options.transition_first"
+          },
+          {
+            "value": "second",
+            "label": "t:theme_settings.animation.select_transition_options.transition_second"
+          },
+          {
+            "value": "third",
+            "label": "t:theme_settings.animation.select_transition_options.transition_third"
+          },
+          {
+            "value": "fourth",
+            "label": "t:theme_settings.animation.select_transition_options.transition_fourth"
+          },
+          {
+            "value": "none",
+            "label": "t:theme_settings.animation.select_transition_options.transition_none"
+          }
+        ],
+        "default": "second"
       },
       {
         "type": "checkbox",
