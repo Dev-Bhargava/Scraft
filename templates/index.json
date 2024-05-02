@@ -478,12 +478,14 @@
         "video_KaQY4k": {
           "type": "video",
           "settings": {
+            "video_local": "shopify:\/\/files\/videos\/1.mp4",
             "product_item": ""
           }
         },
         "video_hjFdxU": {
           "type": "video",
           "settings": {
+            "video_local": "shopify:\/\/files\/videos\/IMG_0 (2).mov",
             "product_item": ""
           }
         }
