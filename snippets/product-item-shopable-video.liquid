@@ -200,7 +200,7 @@
       >
         {% if product.selling_plan_groups.size > 0 %}
           <div class="bls__selling_plan-label">
-            {{- 'products.product.label.subscription' | t -}}
+            {{- 'general.newsletter.subscribe' | t -}}
           </div>
         {% endif %}
         {%- if sale -%}
@@ -209,7 +209,7 @@
           >
             {% assign sale_type = settings.product_label_sale_type %}
             {%- if sale_type == 'text' -%}
-              {{- 'products.product.label.sale' | t -}}
+              {{- 'product.general.on_sale_badge' | t -}}
             {% elsif sale_type == 'percent' %}
               {%- if percent > 0 -%}
                 {%- assign percent = percent | times: 100.0 | divided_by: compare_at_price | round -%}
@@ -226,14 +226,14 @@
           <div
             class="bls__sold-out-label"
           >
-            {{ 'products.product.sold_out' | t }}
+            {{ 'product.general.sold_out_badge' | t }}
           </div>
         {%- else -%}
           {%- if pre_order -%}
             <div
               class="bls__pre-order-label"
             >
-              {{ 'products.product.pre_order' | t }}
+              {{ 'product.general.pre_order_button' | t }}
             </div>
           {%- endif -%}
         {%- endif -%}
@@ -632,9 +632,9 @@
       class="btn-more-info uppercase fs-12 heading-weight underline mb-20"
       href="{{ product.url }}"
       role="link"
-      aria-label="{{ 'products.product.more_info' | t }}"
+      aria-label="{{ 'product.general.view_details' | t }}"
     >
-      {{- 'products.product.more_info' | t -}}
+      {{- 'product.general.view_details' | t -}}
     </a>
     <div
       class="bls__product-action-single"
@@ -688,14 +688,14 @@
                     {%- if product.selected_or_first_available_variant.available
                       and product.selected_or_first_available_variant.inventory_quantity < 1
                     -%}
-                      {{ 'products.product.pre_order' | t }}
+                      {{ 'product.general.pre_order_button' | t }}
                     {%- elsif product.selected_or_first_available_variant.available -%}
-                      {{ 'products.product.add_to_cart' | t }}
+                      {{ 'product.general.add_to_cart_button' | t }}
                     {%- else -%}
-                      {{ 'products.product.sold_out' | t }}
+                      {{ 'product.general.sold_out_badge' | t }}
                     {%- endif -%}
                   {%- else -%}
-                    {{ 'products.product.add_to_cart' | t }}
+                    {{ 'product.general.add_to_cart_button' | t }}
                   {%- endif -%}
                 </span>
                 <span
@@ -710,9 +710,9 @@
                     role="button"
                     aria-label="button"
                     class="btn-reset bls__product-wishlist bls__product-wishlist-js bls__product-action-btn-js bls_tooltip border mb-20 btn-radius"
-                    data-remove-wishlist="{{ 'products.product.remove_wishlist' | t }}"
-                    data-pro-add-wishlist="{{ 'products.product.wishlist' | t }}"
-                    data-pro-remove-wishlist="{{ 'products.product.browse_wishlist' | t }}"
+                    data-remove-wishlist="{{ 'product.general.remove_wishlist' | t }}"
+                    data-pro-add-wishlist="{{ 'product.general.wishlist' | t }}"
+                    data-pro-remove-wishlist="{{ 'product.general.browse_wishlist' | t }}"
                     data-action="{% if settings.remove_wishlist == 'on_wishlist_icon' %}remove{% else %}redirect{% endif %}"
                     data-product-handle="{{ product.handle }}"
                   >
@@ -734,7 +734,7 @@
                     <span
                       class="bls_tooltip-content"
                     >
-                      {{- 'products.product.wishlist' | t -}}
+                      {{- 'product.general.wishlist' | t -}}
                     </span>
                   </button>
                 </shopable-wishlist>

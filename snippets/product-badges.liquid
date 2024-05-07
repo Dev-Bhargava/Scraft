@@ -72,14 +72,16 @@ Supported variables
                 {{- 'product.general.discount_badge_html' | t: savings: savings -}}
               {%- endif -%}
             </on-sale-badge>
+            
           {%- endif -%}
         {%- endif -%}
-    {%- endcase -%}
-  {%- endfor -%}
-{%- endcapture -%}
+      {%- endcase -%}
+    {%- endfor -%}
+    {%- endcapture -%}
 
 {%- if badges != blank -%}
   <badge-list {% if form_id != blank and is_badge_list_hidden %}hidden{% endif %} class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
     {{- badges -}}
   </badge-list>
+  
 {%- endif -%}

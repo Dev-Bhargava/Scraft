@@ -50,7 +50,8 @@
   }
   
   .pswp img {
-    max-width: none;
+    max-width: 200px;
+    margin: 0 auto;
   }
   
   .pswp--open {
