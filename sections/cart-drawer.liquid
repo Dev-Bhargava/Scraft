@@ -12,6 +12,12 @@
   .tabs .tab:not(.active) {
     display: none;
   }
+  .cart.tab{
+    height: calc(100vh - 80px) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .tabs .tab {
     padding: 10px;
     background: #f2f2f2;
@@ -48,7 +54,7 @@
   <p class="drawer--title active" slot="header">{{ 'cart.general.title' | t }}</p>
   <p class="drawer--title" slot="header">Recently Viewed</p>
     <div class="tabs">
-      <div class="tab active">
+      <div class="cart tab active">
         {%- if cart.empty? -%}
           <p class="h3 text-center">{{ 'cart.general.empty' | t }}</p>
           <p class="h5 text-center" style="margin-top: 40px; text-transform: capitalize;">Not sure where to start?<br/> Try these collections:</p>

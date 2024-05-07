@@ -2203,11 +2203,16 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .sale_ticker > * {
+  font-size: 12px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   -webkit-animation: title 2.5s infinite linear;
-          animation: title 2.5s infinite linear;
+  animation: title 2.5s infinite linear;
+}
+
+cart-drawer .sale_ticker > * {
+  font-size: 10px;
 }
 
 .scroll-line{
