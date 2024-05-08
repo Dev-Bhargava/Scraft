@@ -33,6 +33,8 @@
   .bls__section_shopable-inner {
     position: relative;
     cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
   }
   
   .bls__section_shopable-inner::before {
@@ -322,6 +324,11 @@
     cursor: url(cursor-close.png), pointer;
     transition: opacity .5s !important;
   }
+
+  shopable-video{
+    margin-bottom: 30px;
+    display: block;
+  }
   
   .pswp .pswp__wrapper {
     position: absolute;
@@ -338,6 +345,43 @@
     pointer-events: visible;
   }
   
+  .pswp__container .product-form__buttons.button{
+    margin-bottom: 10px;
+  }
+
+  .bls-shopable-product-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .bls-shopable-media video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    object-fit: cover;
+  }
+
+  [style*="--aspect-ratio"]:before {
+    content: "";
+    height: 0;
+    display: block;
+  }
+  .tiktok-embed>section:before, [style*="--aspect-ratio"]:before {
+      padding-top: calc(100% /(0 + var(--aspect-ratio, 16 / 9)));
+  }
+
+
+  .pswp__container .btn-more-info {
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
   .pswp:not(.pswp--ui-visible) .pswp__wrapper .pswp__scroll-wrap {
     animation: 0.4s cubic-bezier(0.26, 0.54, 0.32, 1) forwards fadeOutRightShort;
   

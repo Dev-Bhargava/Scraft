@@ -157,7 +157,8 @@
             <input type="hidden" name="attributes[products_desktop_grid_mode]" value="">
 
             {%- if section.settings.show_cart_note or section.settings.show_shipping_text -%}
-              <div class="v-stack gap-0.5 justify-items-start">
+            <div class="v-stack gap-0.5 justify-items-start">
+                {%- render 'cart-addons' -%}
                 {%- if section.settings.show_cart_note -%}
                   {%- assign cart_note_dialog_id = 'cart-note-' | append: section.id -%}
                   <button class="link-faded-reverse" aria-controls="{{ cart_note_dialog_id }}">{{ 'cart.general.add_order_note' | t }}</button>
