@@ -324,6 +324,10 @@
     .bls-shopable-product-name, .bls-shopable-product-price .price__regular, .bls-shopable-product-price .price__sale{
       font-size: 6px !important;
     }
+    
+    .bls-shopable-product-popup-item .bls-shopable-product-name, .bls-shopable-product-popup-item .price__regular, .bls-shopable-product-popup-item .price__sale{
+      font-size: 12px !important;
+    }
 
     .bls-shopable-product{
       left: 0rem !important;
