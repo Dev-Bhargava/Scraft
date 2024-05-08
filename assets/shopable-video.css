@@ -21,7 +21,6 @@
   
   .bls-shopable-product_image {
     width: 5rem;
-    height: 5rem;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -57,6 +56,7 @@
     bottom: 1.5rem;
     z-index: 2;
     align-items: center;
+    display: flex;
   }
   
   .bls-shopable-product-name {
@@ -349,12 +349,16 @@
     margin-bottom: 10px;
   }
 
-  .bls-shopable-product-name {
+  .bls-shopable-product-name, .bls-shopable-product-price .price__regular, .bls-shopable-product-price .price__sale {
     font-size: 12px;
     font-weight: 600;
     color: #ffffff;
-    margin-top: 10px;
   }
+
+  .bls-shopable-product-price .price__sale{
+    color: rgb(255, 55, 55);
+  }
+  
   .bls-shopable-media video{
     position: absolute;
     top: 0;

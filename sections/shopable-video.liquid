@@ -201,11 +201,9 @@
                         <h6 class="h6 bls-shopable-product-name">
                           {{ product.title }}
                         </h6>
-                        {% if settings.hidden_price == false %}
-                          <div class="bls-shopable-product-price">
-                            {%- render 'price', product: product, use_variant: true -%}
-                          </div>
-                        {% endif %}
+                        <div class="bls-shopable-product-price">
+                          {%- render 'price', product: product, use_variant: true -%}
+                        </div>
                       </div>
                     </div>
                     <div class="bls-shopable-content-popup">
@@ -326,11 +324,9 @@
                       <h6 class="h6 bls-shopable-product-name">
                         {{ product.title }}
                       </h6>
-                      {% if settings.hidden_price == false %}
-                        <div class="bls-shopable-product-price">
-                          {%- render 'price', product: product, use_variant: true -%}
-                        </div>
-                      {% endif %}
+                      <div class="bls-shopable-product-price">
+                        {%- render 'price', product: product, use_variant: true -%}
+                      </div>
                     </div>
                   </div>
                   <div class="bls-shopable-content-popup">
