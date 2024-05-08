@@ -195,14 +195,6 @@
     margin-top: -25px;
   }
   
-  .pswp--shopable-video .pswp__button--arrow--next {
-    right: -80px;
-  }
-  
-  .pswp--shopable-video .pswp__button--arrow--prev {
-    left: -80px;
-  }
-  
   .pswp--shopable-video .pswp__button--arrow:hover {
     background-color: #ffffff;
     color: #111111;
