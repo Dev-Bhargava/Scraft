@@ -213,7 +213,6 @@
   }
   
   @media (min-width: 768px) {
-  
     .pswp--shopable-video .pswp__item:has(.pswp__dynamic-caption) .pswp__zoom-wrap,
     .pswp--shopable-video .pswp__item:has(.pswp__dynamic-caption) .pswp__dynamic-caption {
       width: 50%;
@@ -320,6 +319,21 @@
       background: rgba(0, 0, 0, 0.5);
       padding: 1rem;
       border-radius: 5px;
+    }
+
+    .bls-shopable-product-name, .bls-shopable-product-price .price__regular, .bls-shopable-product-price .price__sale{
+      font-size: 6px !important;
+    }
+
+    .bls-shopable-product{
+      left: 0rem !important;
+      right: 0rem !important;
+      bottom: 0.5rem !important;
+    }
+
+    .bls-shopable-product_image{
+      width: 100% !important;
+      height: auto !important;
     }
   }
   
