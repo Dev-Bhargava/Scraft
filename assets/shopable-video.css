@@ -227,11 +227,33 @@
   
     .pswp--shopable-video .pswp__button--bls--close {
       margin: 0;
-      width: 50px;
-      height: 50px;
-      top: -50px;
-      right: -50px;
+      width: 25px;
+      height: 25px;
       border: none;
+      margin-right: 15px;
+    }
+
+    .pswp--shopable-video .pswp__button--bls--close  .icon-x {
+      width: 20px;
+      height: 20px;
+      opacity: 0.3;
+    }
+    .pswp--shopable-video .pswp__button--bls--close  .icon-x:hover {
+      opacity: 1;
+    }
+    .pswp--shopable-video .pswp__button--bls--close  .icon-x:before, .pswp--shopable-video .pswp__button--bls--close  .icon-x:after {
+      position: absolute;
+      left: 15px;
+      content: ' ';
+      height: 19px;
+      width: 2px;
+      background-color: #333;
+    }
+    .pswp--shopable-video .pswp__button--bls--close  .icon-x:before {
+      transform: rotate(45deg);
+    }
+    .pswp--shopable-video .pswp__button--bls--close  .icon-x:after {
+      transform: rotate(-45deg);
     }
   
     .pswp--shopable-video .pswp__scroll-wrap {

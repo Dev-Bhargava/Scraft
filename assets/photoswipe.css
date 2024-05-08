@@ -383,13 +383,32 @@
     visibility: visible;
   }
   
-  .pswp__button--arrow--prev {
-    right: auto;
-    left: 0px;
+  .pswp__button--arrow--next, .pswp__button--arrow--prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pswp__button--arrow--next .icon-chevron-right,
+  .pswp__button--arrow--prev .icon-chevron-left{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #ffff;
+  }
+  .pswp__button--arrow--next:hover .icon-chevron-right,
+  .pswp__button--arrow--prev:hover .icon-chevron-left{
+    border-color: #000000;
+  }
+  .pswp__button--arrow--next .icon-chevron-right{
+    transform: rotate(135deg);
+    margin-left: -7px;
   }
   
-  .pswp__button--arrow--next {
-    right: 0px;
+  .pswp__button--arrow--prev .icon-chevron-left{
+    transform: rotate(-45deg);
+    margin-right: -7px;
   }
   
   .pswp__button--arrow--next .pswp__icn {
