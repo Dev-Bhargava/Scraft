@@ -662,8 +662,8 @@
             type="hidden"
             name="id"
             value="{{ product.selected_or_first_available_variant.id }}"
-            disabled
           >
+          <input type="hidden" name="quantity" value="1">
           <div
             class="product-form__buttons button flex flex-wrap-mb border-top mt-25 pt-20"
           >
@@ -700,6 +700,8 @@
                   class="loader-icon"
                 ></span>
               </button>
+
+              
               {%- if show_wishlist -%}
                 <shopable-wishlist>
                   <button

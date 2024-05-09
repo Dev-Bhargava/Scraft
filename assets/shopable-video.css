@@ -195,6 +195,14 @@
     margin-top: -25px;
   }
   
+  .pswp--shopable-video .pswp__button--arrow--next {
+    right: -80px;
+  }
+  
+  .pswp--shopable-video .pswp__button--arrow--prev {
+    left: -80px;
+  }
+  
   .pswp--shopable-video .pswp__button--arrow:hover {
     background-color: #ffffff;
     color: #111111;
@@ -412,7 +420,6 @@
 
 
   .pswp__container .btn-more-info {
-    font-weight: 600;
     text-decoration: underline;
     margin-bottom: 20px;
     text-transform: uppercase;
