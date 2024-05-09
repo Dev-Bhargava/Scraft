@@ -505,7 +505,7 @@
         "section_type": "grid",
         "custom_column": 3,
         "column_gap": 30,
-        "aspect_ratio": "1\/1",
+        "aspect_ratio": "3\/4",
         "custom_ratio": "1:1",
         "carousel_autoplay": false,
         "carousel_arrows": false,
