@@ -14,6 +14,14 @@
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
     "section_animation_transition": "first",
+    "type_base_font": "roboto_condensed_n4",
+    "use_custom_font_body": true,
+    "custom_body_font": "https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Regular.ttf?v=1618297125@400\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Medium.ttf?v=1618297125@500\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-SemiBold.ttf?v=1618297125@600",
+    "custom_body_weight": "400",
+    "type_header_font": "roboto_condensed_n7",
+    "use_custom_font_heading": true,
+    "custom_heading_font": "https://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Regular.ttf?v=1618297125@400\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-Medium.ttf?v=1618297125@500\nhttps://cdn.shopify.com/s/files/1/0561/2742/2636/files/Jost-SemiBold.ttf?v=1618297125@600",
+    "custom_heading_weight": "400",
     "content_for_index": [
 
     ],
