@@ -86,6 +86,9 @@
       "block_order": [
         "collection-1"
       ],
+      "custom_css": [
+        "h2{font-family: M-Heading-Font; font-weight:400;}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -471,21 +474,18 @@
         "video_f67BFf": {
           "type": "video",
           "settings": {
-            "video_local": "",
             "product_item": ""
           }
         },
         "video_KaQY4k": {
           "type": "video",
           "settings": {
-            "video_local": "",
             "product_item": ""
           }
         },
         "video_hjFdxU": {
           "type": "video",
           "settings": {
-            "video_local": "",
             "product_item": ""
           }
         }
