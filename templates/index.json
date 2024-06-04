@@ -471,22 +471,22 @@
         "video_f67BFf": {
           "type": "video",
           "settings": {
-            "video_local": "shopify:\/\/files\/videos\/Moonstore (1) (1).mp4",
+            "video_local": "",
             "product_item": ""
           }
         },
         "video_KaQY4k": {
           "type": "video",
           "settings": {
-            "video_local": "shopify:\/\/files\/videos\/1.mp4",
+            "video_local": "",
             "product_item": ""
           }
         },
         "video_hjFdxU": {
           "type": "video",
           "settings": {
-            "video_local": "shopify:\/\/files\/videos\/IMG_0 (2).mov",
-            "product_item": "a-diabetic-chef-almond-belgian-dark-chocolate-40g"
+            "video_local": "",
+            "product_item": ""
           }
         }
       },
